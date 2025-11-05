@@ -1,44 +1,24 @@
-### EA-AngularSeminari5
+# FrontEnd_Angular - NightUp Backoffice Admin
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+Este proyecto es el frontend desarrollado en **Angular 20.3.4** para el sistema de administración de NightUp.
 
-## Development server
+## Nuevas Funcionalidades - Sistema de Valoraciones
 
-To start a local development server, run:
+Se ha implementado un sistema completo de valoraciones que permite:
 
-```bash
-ng serve
-```
+### Características:
+- **Ver todas las valoraciones** con paginación y búsqueda
+- **Crear nuevas valoraciones** para eventos
+- **Editar valoraciones** existentes
+- **Eliminar valoraciones**
+- **Ver estadísticas** de valoraciones por evento
+- **Búsqueda en tiempo real** por evento, usuario o comentario
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Componentes principales:
+- **Ratings Component**: Gestión completa de valoraciones
+- **Rating Service**: Servicio para comunicación con el backend
+- **Rating Model**: Interfaces TypeScript para tipos de datos
 
 
-### Sources:
-  - Videos
-  - YouTube videos about angular
-  - Code autogeneration  using GitHub Copilot
 
+Igual que a backend, no he pogut comprovar la funcionalitat

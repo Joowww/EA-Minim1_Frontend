@@ -4,6 +4,7 @@ import { HomeComponent } from './components/home/home.component';
 import { UsersDatabaseComponent } from './components/users-database/users-database.component';
 import { ConnectedUsersComponent } from './components/connected-users/connected-users.component';
 import { OrganizedEventsComponent } from './components/organized-events/organized-events.component';
+import { RatingsComponent } from './components/ratings.component/ratings.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -11,6 +12,7 @@ export const routes: Routes = [
   { path: 'users', component: UsersDatabaseComponent },
   { path: 'connected-users', component: ConnectedUsersComponent },
   { path: 'organized-events', component: OrganizedEventsComponent },
+  { path: 'ratings', component: RatingsComponent },
   { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: '**', redirectTo: 'login' }
 ];
